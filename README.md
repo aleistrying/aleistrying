@@ -4,7 +4,7 @@
 <p align="center">
   Designing and shipping real-world systems, from APIs to AI pipelines.<br/>
   Focused on <b>backend architecture, AI workflows, and production problem solving</b>.
-</p>>
+</p>
 
 ---
 
