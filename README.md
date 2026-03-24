@@ -31,11 +31,35 @@ Known for:
 
 ---
 
-## ⚙️ What I Work With
+## ⚙️ What I Work With 
 
+### 🧠 Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,fastapi,mongodb,postgres,redis,docker,aws,linux" />
+  <img src="https://skillicons.dev/icons?i=ts,js,python,java,cpp" />
 </p>
+
+### 🌐 Full Stack
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi" />
+</p>
+
+### 🗄️ Databases & Storage
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis" />
+</p>
+MongoDB • Qdrant • Postgres • pgvector • Oracle • MySQL
+
+### ☁️ Cloud & DevOps
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,docker,linux" />
+</p>
+Kubernetes • Helm • CI/CD • Nginx • PM2
+
+### 🤖 AI / Data
+LLMs • RAG • Embeddings • Prompt Engineering • Scikit-learn
+
+### 🛠️ Tools
+GitHub • VSCode • Playwright • Grafana
 
 ---
 
@@ -111,6 +135,26 @@ Known for:
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=aleistrying&show_icons=true&theme=tokyonight&hide_border=true" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=aleistrying&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+## 📊 Activity & Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aleistrying&show_icons=true&theme=tokyonight&hide_border=true" height="170" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aleistrying&theme=tokyonight&hide_border=true" height="170" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aleistrying&layout=compact&theme=tokyonight&hide_border=true" height="150" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aleistrying&theme=tokyo-night&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aleistrying&color=blue&style=flat" />
 </p>
 
 ---
