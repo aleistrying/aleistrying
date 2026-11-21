@@ -1,164 +1,31 @@
-<h1 align="center">Alejandro Parparcén</h1>
-<h3 align="center">Full Stack Developer • AI Systems • Startup CTO</h3>
+# Alejandro Parparcén
 
-<p align="center">
-  Designing and shipping real-world systems, from APIs to AI pipelines.<br/>
-  Focused on <b>backend architecture, AI workflows, and production problem solving</b>.
-</p>
+Machine learning and software developer. Based in Ottawa. AI & ML graduate certificate at Lambton College; full-time from January 2027.
 
----
+## Work
 
-## 🧩 About
+I co-founded [Factú](https://factutech.com) in 2021 and I am its CTO. Factú is a personal-finance and tax app for Panama: it helps people claim income-tax refunds and file with the tax authority (DGI). I have built its platform since the start, and it is my main work. Its code is private, so nothing below is Factú code.
 
-- CTO & Senior Developer at **Factu**, building and managing real-world systems end-to-end  
-- Experience across **frontend, backend, infrastructure, and AI systems**  
-- Worked in **small teams and collaborative environments**, mentoring developers and coordinating technical work  
+## Study
 
-Strong focus on:
-- **Debugging and solving complex production issues**  
-- **Designing and scaling backend systems and APIs**  
-- **Evaluating and improving AI-generated code and workflows**  
+Ontario Graduate Certificate in Artificial Intelligence & Machine Learning, Lambton College, Ottawa (January 2026 to September 2027, expected). GPA 3.86 after two terms, Dean's Honour List in Winter and Summer 2026.
 
-Also experienced in:
-- **Project ownership and technical decision-making**  
-- **Collaborating across teams and translating requirements into solutions**  
-- **Balancing development with system design, deployment, and delivery**  
+## Projects
 
-Known for:
-- Taking unclear or complex problems and **making them work in production**  
-- Learning fast, adapting, and **figuring things out under real constraints**  
-- Not stopping until the system works end-to-end
+- [patient-history-navigator](https://github.com/aleistrying/patient-history-navigator): question answering over synthetic patient records on Databricks. Retrieval is filtered to one patient and cites its sources, and counting or trend questions go to eight fixed Python tools so the model does not estimate numbers. Team project of three for a Lambton NLP course. Most of the code was written with AI coding tools; I directed the design and set up the release job. [Live demo](https://patient-history-navigator.vercel.app/?key=mbT_rO4GeGVcjj4rGWLDBXbdpWs9EwZC) (the first answer can take about a minute while the endpoint wakes up).
+- [cohere-retrieval-eval](https://github.com/aleistrying/cohere-retrieval-eval): measures how well Cohere Embed finds the abstract that supports a scientific claim, on the SciFact dataset from BEIR (5,183 abstracts), and what Rerank changes. I write this code myself. In progress: the public notebook has the embedding baseline and first Rerank calls; the results table and write-up are not finished.
+- [nn-from-scratch](https://github.com/aleistrying/nn-from-scratch): logistic regression in NumPy on the Wisconsin breast-cancer dataset, with the gradient derived by hand and checked against a numerical slope. A two-layer network is in progress. My own initiative, not coursework.
+- [common-room](https://github.com/aleistrying/common-room): shared planner for a small group (ideas, polls, availability, calendar, RSVP) on Next.js and Supabase Postgres with row-level security, an offline outbox and push reminders. Side project built with AI coding tools. The hosted demo is currently offline because its backend is paused.
 
----
+Coursework:
 
-## ⚙️ What I Work With 
+- [imdb-sentiment-tfidf-vs-word2vec](https://github.com/aleistrying/imdb-sentiment-tfidf-vs-word2vec): IMDB review sentiment with the same Random Forest on two feature sets, on a 5,000-review subset. TF-IDF reached 0.814 accuracy and averaged Word2Vec 0.715.
+- [online-retail-rfm-kmeans-apriori](https://github.com/aleistrying/online-retail-rfm-kmeans-apriori): customer segmentation and market-basket rules on the UCI Online Retail dataset (541,909 transactions). K-Means on RFM features had its best silhouette at k = 2 (0.433).
 
-### 🧠 Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,java,cpp" />
-</p>
+## How I use AI tools
 
-### 🌐 Full Stack
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi" />
-</p>
+Some of these projects were built largely with AI coding tools, and each entry above says so. In the two repositories I use for learning (cohere-retrieval-eval and nn-from-scratch) I write the code myself and use AI to explain concepts and review my work.
 
-### 🗄️ Databases & Storage
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis" />
-</p>
-MongoDB • Qdrant • Postgres • pgvector • Oracle • MySQL
+## Contact
 
-### ☁️ Cloud & DevOps
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,docker,linux" />
-</p>
-Kubernetes • Helm • CI/CD • Nginx • PM2
-
-### 🤖 AI / Data
-LLMs • RAG • Embeddings • Prompt Engineering • Scikit-learn
-
-### 🛠️ Tools
-GitHub • VSCode • Playwright • Grafana
-
----
-
-## 🧠 Core Strengths
-
-- **Code Review & Debugging**  
-  Identifying issues across full systems (frontend, backend, infra) and resolving production problems  
-
-- **AI-Assisted Development**  
-  Using ChatGPT / Copilot to evaluate, refine, and improve code iteratively  
-
-- **System Design & Integration**  
-  Building APIs, connecting services, and designing systems that actually run in production  
-
-- **Performance & Optimization**  
-  Improving queries, APIs, and workflows based on real-world constraints  
-
----
-
-## 🔥 Featured Work
-
-### 🧠 RAG System (Vector DB + AI)
-🔗 https://github.com/aleistrying/basic-py-rag  
-
-- Built a **complete RAG pipeline** (PDF → embeddings → semantic search → AI responses)  
-- Compared **Qdrant vs PostgreSQL (pgvector)**  
-- Includes API, UI, Docker setup, and full pipeline  
-
----
-
-### 🏗️ Factu (Production System)
-🔒 Private  
-
-- Full fintech ecosystem (mobile, web, backend, automation)  
-- Built systems for:
-  - Payments & subscriptions  
-  - WhatsApp automation  
-  - Scheduling systems  
-- Worked across **React, Node.js, AWS, APIs, and data pipelines**  
-
----
-
-### 🤖 Rasa AI Bot (Distributed System)
-🔒 Private  
-
-- Built conversational system using **Rasa**  
-- Designed flows, slot handling, and logic  
-- Deployed on **Kubernetes (AWS)** using Helm  
-- Implemented distributed setup (multi-node)  
-- Added monitoring with **Grafana**  
-- Focused on reliability and real-world usage  
-
----
-
-### ⚙️ MongoDB Auto Dump Tool
-🔗 https://github.com/aleistrying/AUTO_DUMP  
-
-- Automated database backup system  
-- Designed for production reliability (PM2 / tmux usage)  
-
----
-
-### 🤖 Discord Bot (Early Project)
-🔗 https://github.com/aleistrying/CCLBot  
-
-- Built with Node.js + Discord.js  
-- Player matching, tracking, and automation logic  
-
----
-
-## 📊 Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aleistrying&theme=tokyo-night&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aleistrying&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 🎯 Current Focus
-
-- Building **AI systems (RAG, LLM workflows, evaluation)**
-- Improving **backend systems, APIs, and data pipelines**
-- Solving **real production problems (performance, reliability, debugging)**
-- Learning and applying **machine learning and data-driven systems**
-
----
-
-## 🧠 Philosophy
-
-> If it doesn’t work in production, it doesn’t matter.
-
-- Build, test, break, fix — repeat  
-- Solve problems, not just write code  
-- Challenge yourself to go deeper every time  
-- Break down problems until they become solvable   
-- Iterate fast, test, and improve continuously   
-
----
+[alejandrop.com](https://www.alejandrop.com) · [LinkedIn](https://www.linkedin.com/in/alejandro-parparcen-grillet) · alejandroparparcen@gmail.com
